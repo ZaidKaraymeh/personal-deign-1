@@ -1,0 +1,107 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    background-color: darkslategrey;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.apricot {
+    background-color: #FFCDB2;
+}
+.melon {
+    background-color: #FFB4A2;
+}
+.pink {
+    background-color: #E5989B;
+}
+.maron {
+    background-color: #B5838D;
+}
+.grey {
+    background-color: #6D6875;
+}
+
+.spacer {
+    aspect-ratio: 960/148;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    stroke: transparent;
+    stroke-width: none;
+
+}
+    .introSVG {
+        background-image: url("./media/intro.svg");
+        transform: scaleY(-1);
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .skillsSVG {
+        background-image: url("./media/skills.svg");
+        transform: scaleY(-1);
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .projectsSVG {
+        background-image: url("./media/projects.svg");
+        transform: scaleY(-1);
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .socialsSVG {
+        background-image: url("./media/socials.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .goalsSVG {
+        background-image: url("./media/goals.svg");
+        transform: scaleY(-1);
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    
+    .blob-motion {
+        position: absolute;
+        transform: translateY(-10%);
+        z-index: 1;
+    }
+
+
+
+
+
+
+
+
+
+/* SideBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
